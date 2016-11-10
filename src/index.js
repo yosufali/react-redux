@@ -12,7 +12,7 @@ const store = configureStore(); // creates an instance of our store, without pas
 
 render(
   <Provider store={store}>
-    <Router history={browserHistory} routes={routes} />,
-  </Provider>
+    <Router history={browserHistory} routes={routes} />
+  </Provider>,
   document.getElementById('app')
 );
